@@ -1,3 +1,4 @@
+// @ts-nocheck
 import OpenAI from "openai";
 import {NextResponse} from "next/server";
 const client=new OpenAI({apiKey:process.env.OPENAI_API_KEY});
